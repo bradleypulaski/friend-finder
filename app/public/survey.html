@@ -1,0 +1,431 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Survey</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+		<div id="wrapper">
+
+			<div class="container">
+			  <div class="jumbotron">
+			    <h1>Friend Finder</h1>
+			    <p>take this survey to find some friends.</p>
+			    <p>Don't be lonely! Make some friends today!</p>
+			     			<hr/>
+
+			  </div>
+ 			</div>
+
+		<form id="survey">
+		  <div class="form-group">
+		    <label for="name">Name</label>
+		    <input type="text" class="form-control" id="name"  placeholder="Enter name">
+		  </div>		 
+		  <div class="form-group">
+		    <label for="picture">Picture URL</label>
+		    <input type="text" class="form-control" id="picture"  placeholder="Enter Picture URL">
+		  </div>
+
+
+		  <h3>On a scale of 1 - 5 are you a lover (5) or a hater (1)?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="loverhater" id="loverhater1" value="1" checked>
+			  <label class="form-check-label" for="loverhater1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="loverhater" id="loverhater2" value="2">
+			  <label class="form-check-label" for="loverhater2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="loverhater" id="loverhater3" value="3" >
+			  <label class="form-check-label" for="loverhater3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="loverhater" id="loverhater4" value="4" >
+			  <label class="form-check-label" for="loverhater4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="loverhater" id="loverhater5" value="5" >
+			  <label class="form-check-label" for="loverhater5">
+			    5
+			  </label>
+			</div>
+
+		    <h3>On a scale of 1 - 5 how motivated are you?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="motivated" id="motivated1" value="1" checked>
+			  <label class="form-check-label" for="motivated1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="motivated" id="motivated2" value="2">
+			  <label class="form-check-label" for="motivated2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="motivated" id="motivated3" value="3" >
+			  <label class="form-check-label" for="motivated3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="motivated" id="motivated4" value="4" >
+			  <label class="form-check-label" for="motivated4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="motivated" id="motivated5" value="5" >
+			  <label class="form-check-label" for="motivated5">
+			    5
+			  </label>
+			</div>
+
+
+		    <h3>On a scale of 1 - 5 how much do you like video games?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="videogames" id="videogames1" value="1" checked>
+			  <label class="form-check-label" for="videogames1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="videogames" id="videogames2" value="2">
+			  <label class="form-check-label" for="videogames2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="videogames" id="videogames3" value="3" >
+			  <label class="form-check-label" for="videogames3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="videogames" id="videogames4" value="4" >
+			  <label class="form-check-label" for="videogames4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="videogames" id="videogames5" value="5" >
+			  <label class="form-check-label" for="videogames5">
+			    5
+			  </label>
+			</div>
+
+		    <h3>On a scale of 1 - 5 how much does this word make sense to you? onomatopoeia</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="onomatopoeia" id="onomatopoeia1" value="1" checked>
+			  <label class="form-check-label" for="onomatopoeia1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="onomatopoeia" id="onomatopoeia2" value="2">
+			  <label class="form-check-label" for="onomatopoeia2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="onomatopoeia" id="onomatopoeia3" value="3" >
+			  <label class="form-check-label" for="onomatopoeia3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="onomatopoeia" id="onomatopoeia4" value="4" >
+			  <label class="form-check-label" for="onomatopoeia4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="onomatopoeia" id="onomatopoeia5" value="5" >
+			  <label class="form-check-label" for="onomatopoeia5">
+			    5
+			  </label>
+			</div>
+
+
+		    <h3>On a scale of 1 - 5 how much do you value friendship?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="friendship" id="friendship1" value="1" checked>
+			  <label class="form-check-label" for="friendship1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="friendship" id="friendship2" value="2">
+			  <label class="form-check-label" for="friendship2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="friendship" id="friendship3" value="3" >
+			  <label class="form-check-label" for="friendship3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="friendship" id="friendship4" value="4" >
+			  <label class="form-check-label" for="friendship4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="friendship" id="friendship5" value="5" >
+			  <label class="form-check-label" for="friendship5">
+			    5
+			  </label>
+			</div>
+
+		    <h3>On a scale of 1 - 5 how much do you value technology?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="technology" id="technology1" value="1" checked>
+			  <label class="form-check-label" for="technology1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="technology" id="technology2" value="2">
+			  <label class="form-check-label" for="technology2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="technology" id="technology3" value="3" >
+			  <label class="form-check-label" for="technology3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="technology" id="technology4" value="4" >
+			  <label class="form-check-label" for="technology4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="technology" id="technology5" value="5" >
+			  <label class="form-check-label" for="technology5">
+			    5
+			  </label>
+			</div>
+
+		    <h3>On a scale of 1 - 5 how much do you value punctuality?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="punctuality" id="punctuality1" value="1" checked>
+			  <label class="form-check-label" for="punctuality1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="punctuality" id="punctuality2" value="2">
+			  <label class="form-check-label" for="punctuality2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="punctuality" id="punctuality3" value="3" >
+			  <label class="form-check-label" for="punctuality3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="punctuality" id="punctuality4" value="4" >
+			  <label class="form-check-label" for="punctuality4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="punctuality" id="punctuality5" value="5" >
+			  <label class="form-check-label" for="punctuality5">
+			    5
+			  </label>
+			</div>
+
+		    <h3>On a scale of 1 - 5 how hard do you work on chores?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="chores" id="chores1" value="1" checked>
+			  <label class="form-check-label" for="chores1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="chores" id="chores2" value="2">
+			  <label class="form-check-label" for="chores2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="chores" id="chores3" value="3" >
+			  <label class="form-check-label" for="chores3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="chores" id="chores4" value="4" >
+			  <label class="form-check-label" for="chores4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="chores" id="chores5" value="5" >
+			  <label class="form-check-label" for="chores5">
+			    5
+			  </label>
+			</div>
+
+			<h3>On a scale of 1 - 5 how much do you like operas?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="opera" id="opera1" value="1" checked>
+			  <label class="form-check-label" for="opera1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="opera" id="opera2" value="2">
+			  <label class="form-check-label" for="opera2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="opera" id="opera3" value="3" >
+			  <label class="form-check-label" for="opera3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="opera" id="opera4" value="4" >
+			  <label class="form-check-label" for="opera4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="opera" id="opera5" value="5" >
+			  <label class="form-check-label" for="opera5">
+			    5
+			  </label>
+			</div>
+
+			<h3>On a scale of 1 - 5 how much do you like reading?</h3>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="reading" id="reading1" value="1" checked>
+			  <label class="form-check-label" for="reading1">
+			    1
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="reading" id="reading2" value="2">
+			  <label class="form-check-label" for="reading2">
+				2
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="reading" id="reading3" value="3" >
+			  <label class="form-check-label" for="reading3">
+			    3
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="reading" id="reading4" value="4" >
+			  <label class="form-check-label" for="reading4">
+			    4
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="reading" id="reading5" value="5" >
+			  <label class="form-check-label" for="reading5">
+			    5
+			  </label>
+			</div>
+
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">MATCH!!!</h4>
+		      </div>
+		      <div class="modal-body">
+		        <h3 id="match-header"></h3>
+		        <img style="width: 100%" id="match-picture"/>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+</div>
+
+<style>
+
+body {
+	background-color: lightgray;
+
+}
+
+#wrapper {
+	background-color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+}
+
+</style>
+
+		<script>
+			
+			$("#survey").submit(function(e){
+				e.preventDefault();
+
+				var name = $("#name").val();
+				var picture = $("#picture").val();
+				var scores = [];
+
+				$("input[type=radio]:checked").each(function(){
+					scores.push($(this).val());
+				});
+				var s = scores.join(",")
+
+				var obj = {name:name,picture:picture,scores:s};
+				
+				$.post("api/friends", obj).then(function(result) {
+					 var json = JSON.parse(result);
+					 var name = json.name;
+					 var picture = json.picture;
+					 $("#match-header").html(name);
+					 $("#match-picture").attr("src", picture);
+					 $("#myModal").modal() 
+				});
+
+			});
+		</script>
+	</body>
+</html>

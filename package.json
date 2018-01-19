@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleypulaski/friend-finder.git"
+  },
+  "author": "bradley pulaski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradleypulaski/friend-finder/issues"
+  },
+  "homepage": "https://github.com/bradleypulaski/friend-finder#readme"
+}
